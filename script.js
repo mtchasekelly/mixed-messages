@@ -57,7 +57,16 @@ for (let selection in messageComponents) {
 }
 
 // Test 
-console.log(nonsensicalJoke);
+// console.log(nonsensicalJoke);
+
+// Put the program together 
+const finalNonsensicalJoke = () => {
+    console.log(nonsensicalJoke.join('\n'));
+}
+
+// Call the function
+finalNonsensicalJoke();
+
 
 
 
