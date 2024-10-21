@@ -1,8 +1,7 @@
 // Store the message components 
-
-const nonsensicalJokes = {
-    type: ['best', 'worst', 'funniest', 'silliest', 'cleverest', 'sweetest'],
-    question: ['Why did the lady put lipstick on her forehead?',
+const messageComponents = {
+    types: ['best', 'worst', 'funniest', 'silliest', 'cleverest', 'sweetest'],
+    questions: ['Why did the lady put lipstick on her forehead?',
                'Did you hear about the invisible man who went to the doctor?',
                'Why do dolphins sing off-key?',
                'Did you hear about the computer that went to the doctor?',
@@ -12,7 +11,7 @@ const nonsensicalJokes = {
                'Where do spiders buy their clothes?',
                'Did you hear about the emotional wedding?',
                'Why shouldn\'t you trust atoms?'],
-    punchline: ['She was trying to makeup her mind.',
+    punchlines: ['She was trying to makeup her mind.',
                 'He\'s still waiting to be seen.',
                 'Because you can\'t tuna fish.',
                 'It had a virus.',
@@ -21,5 +20,10 @@ const nonsensicalJokes = {
                 'Because it doesn\'t have a steering wheel.',
                 'On the web.',
                 'Even the cake was in tiers.',
-                'They make up everything.']  
+                'They make up everything.'] 
+}
+
+// Generate a random selection
+const generateRandOption = (option) => {
+    return Math.floor(Math.random() * option);
 }
