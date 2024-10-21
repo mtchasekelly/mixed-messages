@@ -31,6 +31,7 @@ const generateRandOption = (option) => {
 // Store the nonsensical joke
 let nonsensicalJoke = [];
 
+// Formulate the nonsensical joke
 // Iterate through each array in the object, make a random selection from each
 for (let selection in messageComponents) {
     let selectOption = generateRandOption(messageComponents[selection].length);
