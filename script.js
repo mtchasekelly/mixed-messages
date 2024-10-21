@@ -38,8 +38,7 @@ for (let selection in messageComponents) {
     switch (selection) {
 
         case 'types':      
-            nonsensicalJoke.push(`Prepare to hear the 
-                ${messageComponents[selection][selectOption]} joke you'll ever hear...`);
+            nonsensicalJoke.push(`Prepare to hear the ${messageComponents[selection][selectOption]} joke you'll ever hear...`);
             break;
 
         case 'questions':
