@@ -57,6 +57,11 @@ for (let selection in messageComponents) {
     }
 }
 
+// Test 
+console.log(nonsensicalJoke);
+
+
+
 
 
 
