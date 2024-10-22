@@ -15,7 +15,6 @@ Below are some examples:
 
 ![Screenshot of project](./images/screenshot-one.png)
 ![Screenshot of project](./images/screenshot-two.png)
-![Screenshot of project](./images/screenshot-three.png)
 
 ## How to Use
 
