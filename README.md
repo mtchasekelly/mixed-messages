@@ -13,8 +13,15 @@ The features of this project are:
 
 Below are some examples:
 
+**Example 1:**
+
 ![Screenshot of project](./images/screenshot-one.png)
+
+**Example 2:**
+
 ![Screenshot of project](./images/screenshot-two.png)
+
+There are many combinations that can be generated. 
 
 ## How to Use
 
