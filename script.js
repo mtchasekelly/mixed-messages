@@ -44,16 +44,16 @@ for (let selection in messageComponents) {
     switch (selection) {
 
         case 'types':      
-            nonsensicalJoke.push(`Prepare to see the ${messageComponents[selection][selectOption]} joke you'll ever see:`);
-            break;
+        nonsensicalJoke.push(`${messageComponents[selection][selectOption]}:`);
+        break;
 
         case 'questions':
             nonsensicalJoke.push(`${messageComponents[selection][selectOption]}?`);
             break;
 
         case 'punchlines':
-            nonsensicalJoke.push(`${messageComponents[selection][selectOption]}!`);
-            break;         
+            nonsensicalJoke.push(`Because ${messageComponents[selection][selectOption]}!`);
+            break;    
 
         default:
             nonsensicalJoke.push("Unfortunately, we cannot tell you a joke at this time.");
