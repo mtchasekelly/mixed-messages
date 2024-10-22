@@ -6,10 +6,16 @@ This is a Codecademy Portfolio Project. The purpose of this project is to genera
 
 ## Features
 
-The features of this program are:
+The features of this project are:
 
 + Generate a random nonsensical joke
 + Display the joke to the user 
+
+Below are some examples:
+
+![Screenshot of project](./images/screenshot-one.png)
+![Screenshot of project](./images/screenshot-two.png)
+![Screenshot of project](./images/screenshot-three.png)
 
 ## How to Use
 
@@ -23,7 +29,8 @@ To use this project:
 
 ## Technologies
 
-The technologies used are JavaScript and Node.js:
+The technologies used are JavaScript, Node.js, and GitBash:
 
 + JavaScript is used to create the script
-+ Node.js is used to execute the script
++ Node.js enables the script to be executed
++ GitBash is used to run the script
